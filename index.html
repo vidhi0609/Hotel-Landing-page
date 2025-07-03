@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+      <!-- navbar -->
+
+      <nav class="navbar navbar-expand-lg bg-white fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand  text-danger fw-bold" href="#">Nest Inn</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Rooms</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Price</a>
+        </li>
+      <form class="d-flex" role="search">
+        <button class="btn btn-outline-dark rounded-pill mx-5" type="submit">Book Now</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- hero section -->
+
+<div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Rounded indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="1"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('https://img.freepik.com/premium-photo/lobby-hotel-has-chandelier-that-is-lit-up_1172687-4971.jpg?uid=R204885656&ga=GA1.1.1202459176.1712985229&semt=ais_hybrid&w=740');">
+        <div class="carousel-caption text-center text-white">
+          <h1 class="display-4 fw-bold">WELCOME TO HOTEL IN DUBAI</h1>
+          <p>Experience luxury and comfort with stunning views.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('https://img.freepik.com/premium-photo/luxurious-hotel-lobby-with-marble-floor_1028938-278250.jpg?uid=R204885656&ga=GA1.1.1202459176.1712985229&semt=ais_hybrid&w=740');">
+        <div class="carousel-caption text-center text-white">
+          <h1 class="display-4 fw-bold">RELAX & ENJOY</h1>
+          <p>Your perfect holiday destination awaits you.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container booking-form-wrapper">
+    <div class="booking-form">
+      <form class="row g-2">
+        <div class="col-md-3">
+          <input type="date" class="form-control" placeholder="MM/DD/YYYY">
+        </div>
+        <div class="col-md-3">
+          <input type="date" class="form-control" placeholder="MM/DD/YYYY">
+        </div>
+        <div class="col-md-2">
+          <select class="form-select">
+            <option selected>Adults</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3+</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <select class="form-select">
+            <option selected>Children</option>
+            <option>0</option>
+            <option>1</option>
+            <option>2+</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <button type="submit" class="btn btn-outline-dark rounded-2 w-100 p-2">CHECK AVAILABILITY</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- Welcome to hotel sectionn -->
+
+  <section>
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 py-5">
+                <h2>Welcome <span class=" text-danger"> To Hotel</span></h2>
+                <h2><span class=" text-danger"> The Heaven</span> of your Weekend</h2>
+                <p class="pr text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ipsam nam molestias repellendus laboriosam alias.</p>
+                <p class="pr text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vitae ut praesentium accusantium deleniti omnis.</p>
+
+                 <button class="btn btn-outline-dark rounded-pill" type="submit">Explore More</button>
+            </div>
+
+          <div class="col-md-6 mt-4 mt-md-0 ms-10">
+        <div class="card-stack text-center">
+          <!-- Front card -->
+          <div class="position-relative front-card">
+            <img src="https://img.freepik.com/premium-photo/guest-receiving-room-upgrade-from-front-desk-staff-checkin_1327465-9281.jpg?uid=R204885656&ga=GA1.1.1202459176.1712985229&semt=ais_hybrid&w=740" alt="Reception" class="">
+          </div>
+
+          <!-- Back card -->
+          <div class="back-card">
+            <img src="https://plus.unsplash.com/premium_photo-1661962398552-0aac50e8560c?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Lobby" class="">
+          </div>
+        </div>
+      </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Rooms Sections -->
+
+  <section class="py-5">
+    <div class=" cont container text-center py-5"> 
+        <small class="">WHAT I CAN DO FOR YOU</small>
+         <h2 class="mt-3">Our Favorite Rooms</h2>
+    </div>
+
+    <div class="row mx-5">
+        <div class="col-lg-4 col-md-6">
+            <img class="room-img" src="https://images.unsplash.com/photo-1615529162924-f8605388461d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWx8ZW58MHwyfDB8fHww" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <img class="room-img" src="https://images.unsplash.com/photo-1709946713608-78bef90ae0ba?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsfGVufDB8MnwwfHx8MA%3D%3D" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <img class="room-img" src="https://plus.unsplash.com/premium_photo-1664299015579-a7918cc8035d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvdGVsfGVufDB8MnwwfHx8MA%3D%3D" alt="" class="services-image img-fluid">
+        </div>
+    </div>
+  </section>
+
+<!-- Services section| -->
+
+  <section class=" services-section py-5">
+    <div class=" cont container text-center py-5"> 
+        <small class="">We Are Here For You</small>
+         <h2 class="mt-3">Our Awesome Services</h2>
+
+         <div class="row align-items-center">
+        <div class=" col-md-6 py-5">
+            <img src="https://images.unsplash.com/photo-1658077830608-81432c518756?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="service-image  img-fluid">
+        </div>
+        <div class="col-md-6 py-5">
+            <div class="feature-box">
+            <div class="feature-icon">
+              <i class="fa-solid fa-spa"></i>
+            </div>
+            <div class="feature-text">
+              <h5 class="fw-semibold">Spa, Beauty & Health</h5>
+              <p class="mb-0"> <span class="text-danger">Spa, Beauty & Health</span>Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
+            </div>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon-1">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="feature-text">
+              <h5 class="fw-semibold">Restaurant</h5>
+              <p class="mb-0"> <span class="text-danger">Restaurant</span>Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
+            </div>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon-1">
+              <i class="fa-solid fa-water-ladder"></i>
+            </div>
+            <div class="feature-text">
+              <h5 class="fw-semibold">Swimming Pool</h5>
+              <p class="mb-0"> <span class="text-danger">Swimming</span>Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
+            </div>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon-1">
+              <i class="fa-solid fa-microphone"></i>
+            </div>
+            <div class="feature-text">
+              <h5 class="fw-semibold">Conference Hall</h5>
+              <p class="mb-0"> <span class="text-danger">Conference</span>Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+        </div>
+  </section>
+
+
+  <!-- Review Sections -->
+
+  <section class="stats-section">
+    <div class="container stats-container">
+      <div class="row justify-content-center text-center mt-3">
+        <div class="col-6 col-md-3 stat-item">
+          <h2>1287+</h2>
+          <p>Happy Clients</p>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <h2>9604+</h2>
+          <p>New Friendships</p>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <h2>1440+</h2>
+          <p>5 star Ratings</p>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <h2>4466+</h2>
+          <p>Served Breakfast</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- chef section, -->
+
+  <section class=" services-section py-5">
+    <div class=" cont container text-center py-5"> 
+        <small class="">What I Can Do For You</small>
+         <h2 class="mt-3">Our Awesome Services</h2>
+         <div class="row g-4 mt-4">
+      <div class="col-md-3">
+        <div class="team-card">
+          <img src="https://img.freepik.com/premium-photo/young-female-receptionist-professional-outfit-smiling-while-answering-phone-call-front-desk-modern-office_1031397-7932.jpg?uid=R204885656&ga=GA1.1.1202459176.1712985229&semt=ais_hybrid&w=740" alt="Member 1" class="chef-image">
+          <div class="team-info">
+            <h5>Jon Doe</h5>
+            <p>Web Designer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="team-card">
+          <img src="https://img.freepik.com/free-photo/maid-with-duster-smiling_23-2148076051.jpg?uid=R204885656&ga=GA1.1.1202459176.1712985229&semt=ais_hybrid&w=740" alt="Member 2" class="chef-image">
+          <div class="team-info">
+            <h5>Alex Smith</h5>
+            <p>UI/UX Expert</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="team-card">
+          <img src="https://img.freepik.com/free-photo/smiling-male-chef-holding-carrot-green-broccoli-hands_23-2147863618.jpg?uid=R204885656&ga=GA1.1.1202459176.1712985229&semt=ais_hybrid&w=740" alt="Member 3" class="chef-image">
+          <div class="team-info">
+            <h5>Jon Doe</h5>
+            <p>Webflow Artist</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="team-card">
+          <img src="https://img.freepik.com/premium-photo/professional-businessman-tablet-office-portrait-planning-schedule-research-company-growth-male-person-smile-digital-technology-with-manager-project-development_590464-347275.jpg?uid=R204885656&ga=GA1.1.1202459176.1712985229&semt=ais_hybrid&w=740" alt="Member 3" class="chef-image">
+          <div class="team-info">
+            <h5>Jon Doe</h5>
+            <p>Webflow Artist</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class=" services-section">
+    <div class=" cont container text-center "> 
+        <small class="">Best Picture of Our Hotel</small>
+         <h2 class="mt-3">Our Gallery</h2>
+         <div class="row gallery-row mt-5">
+
+      <div class="col-6 col-md-3">
+        <img src="https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG90ZWx8ZW58MHwxfDB8fHww" alt="" class="gallery-img">
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="https://images.unsplash.com/photo-1573052905904-34ad8c27f0cc?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="gallery-img">
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="https://images.unsplash.com/photo-1554009975-d74653b879f1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvdGVsfGVufDB8MXwwfHx8MA%3D%3D" alt="" class="gallery-img">
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="https://images.unsplash.com/photo-1596701062351-8c2c14d1fdd0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWx8ZW58MHwxfDB8fHww" alt="" class="gallery-img">
+      </div>
+
+
+      <div class="col-6 col-md-6">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="gallery-img0">
+      </div>
+      <div class="col-6 col-md-6">
+        <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdGVsfGVufDB8MHwwfHx8MA%3D%3D" alt="" class="gallery-img0">
+      </div>
+         </div>
+    </div>
+  </section>
+
+
+  <!-- Pricing -->
+   
+    <section class=" Pricing-section py-5">
+    <div class=" cont container text-center"> 
+        <small class="">Best and Affordable Pricing For You</small>
+         <h2 class="mt-3">Our Pricing</h2>
+          <div class="row justify-content-center mt-5">
+
+            <div class="col-md-3 col-12 col-sm-6">
+                <div class="pricing-card">
+                    <div class="pricing-title">Economic</div>
+                    <ul class="pricing-feature">
+                        <li>Flight Ticket(2)</li>
+                        <li>Music Concert (30% Off)</li>
+                        <li>Restaurant (Snacks)</li>
+                        <li>Face Make(No)</li>
+                    </ul>
+
+                    <br>
+                    <div> <span class="Price-value"> 150 </span>/Night</div>
+                    <button class="btn btn-outline-dark rounded-pill mt-3 px-5" type="submit">Sign Up</button>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-12 col-sm-6">
+                <div class="pricing-card">
+                    <div class="pricing-title">Economic</div>
+                    <ul class="pricing-feature">
+                        <li>Flight Ticket(2)</li>
+                        <li>Music Concert (30% Off)</li>
+                        <li>Restaurant (Snacks)</li>
+                        <li>Face Make(No)</li>
+                    </ul>
+
+                    <br>
+                    <div> <span class="Price-value"> 150 </span>/Night</div>
+                    <button class="btn btn-outline-dark rounded-pill mt-3 px-5" type="submit">Sign Up</button>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-12 col-sm-6">
+                <div class="pricing-card">
+                    <div class="pricing-title">Economic</div>
+                    <ul class="pricing-feature">
+                        <li>Flight Ticket(2)</li>
+                        <li>Music Concert (30% Off)</li>
+                        <li>Restaurant (Snacks)</li>
+                        <li>Face Make(No)</li>
+                    </ul>
+
+                    <br>
+                    <div> <span class="Price-value"> 150 </span>/Night</div>
+                    <button class="btn btn-outline-dark rounded-pill mt-3 px-5" type="submit">Sign Up</button>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-12 col-sm-6">
+                <div class="pricing-card">
+                    <div class="pricing-title">Economic</div>
+                    <ul class="pricing-feature">
+                        <li>Flight Ticket(2)</li>
+                        <li>Music Concert (30% Off)</li>
+                        <li>Restaurant (Snacks)</li>
+                        <li>Face Make(No)</li>
+                    </ul>
+
+                    <br>
+                    <div> <span class="Price-value"> 150 </span>/Night</div>
+                    <button class="btn btn-outline-dark rounded-pill mt-3 px-5" type="submit">Sign Up</button>
+                </div>
+            </div>
+        
+            </div>
+          </div>
+    </div>
+        </section>
+
+      <!-- Footer -->
+
+      <footer class="footer">
+  <div class="container">
+    <div class="row gy-4">
+      <!-- Hotel Location -->
+      <div class="col-md-3">
+        <h5>Hotel Location</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim erat ut laoreet pharetra.</p>
+        <p><i class="bi bi-geo-alt"></i> No. 96, South City, London</p>
+        <p><i class="bi bi-telephone"></i> +1 222 3333</p>
+        <p><i class="bi bi-envelope"></i> info@example.com</p>
+      </div>
+
+      <!-- More Links -->
+      <div class="col-md-2">
+        <h5>More Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Office</a></li>
+          <li><a href="#">Delivery</a></li>
+          <li><a href="#">Our Store</a></li>
+          <li><a href="#">Guarantee</a></li>
+          <li><a href="#">Buy Gift Card</a></li>
+          <li><a href="#">Return Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Demo Links -->
+      <div class="col-md-2">
+        <h5>Demo Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Office</a></li>
+          <li><a href="#">Delivery</a></li>
+          <li><a href="#">Our Store</a></li>
+          <li><a href="#">Guarantee</a></li>
+          <li><a href="#">Buy Gift Card</a></li>
+          <li><a href="#">Return Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-md-5">
+        <h5>Newsletter</h5>
+        <form class="mb-3">
+          <div class="input-group">
+            <input type="email" class="form-control text-small" placeholder="enter your email here">
+            <button class="btn btn-light" type="submit">SUBSCRIBE</button>
+          </div>
+        </form>
+        <h6>Stay Connected</h6>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-google"></i></a>
+          <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7c9c04ee5d.js" crossorigin="anonymous"></script>
+  </body>
+</body>
+</html>
